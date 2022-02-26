@@ -49,7 +49,7 @@ private:
 public:
 	// Constructor
 	Camera(v3 pos = v3(0.0f, 0.0f, 0.0f), v3 up = v3(0.0f, 1.0f, 0.0f), float yaw = YAW, float pitch = PITCH) :
-		position(pos), worldUpVector(up), frontVector(v3(0.0f, 0.0f, -1.0f)), movementSpeed(SPEED), mouseSensitivity(SENSITIVITY), Zoom(Zoom),
+		position(pos), worldUpVector(up), frontVector(v3(0.0f, 0.0f, -1.0f)), movementSpeed(SPEED), mouseSensitivity(SENSITIVITY), Zoom(ZOOM),
 		Yaw(yaw), Pitch(pitch) {
 		updateCameraVectors();
 
